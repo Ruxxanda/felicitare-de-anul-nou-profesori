@@ -1,5 +1,5 @@
 body.fundal {
-    background-image: url('images/fundal.png');
+    background-image: url('/images/fundal.png');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
