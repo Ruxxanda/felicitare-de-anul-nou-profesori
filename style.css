@@ -294,7 +294,6 @@ h1 {
 }
 
 .contact-conteiner {
-    display: flex;
     width: 100%;
     max-width: 1000px;
     border-radius: 12px;
