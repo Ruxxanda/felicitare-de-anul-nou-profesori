@@ -1,0 +1,387 @@
+body.fundal {
+    background-image: url('../images/fundal.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+body.fundal.x1 {
+    overflow: scroll;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20vh;
+}
+
+.container p {
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.titlu {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mesaj {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.buton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buton:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+/* zapada */
+.fulg {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+/* urarea clasei */
+.continut {
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 1.3rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.fundal.x2 .continut {
+    background-color: #b20000a6;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.continut p {
+    margin-top: -30px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.fundal.x2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+}
+
+/* pagina cu bradul */
+.brad-text {
+    margin-top: -20px;
+    font-size: 2rem;
+    color: #00ff22;
+}
+
+.brad {
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    background-image: url('images/brad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.ornament {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.ornament.rux {
+    background-image: url(/images/rux.jpg);
+    background-size: cover;
+}
+
+.ornament.adriana {
+    background-image: url(/images/adriana.jpg);
+    background-size: cover;
+}
+
+.ornament.lucia {
+    background-image: url(/images/lucia.jpg);
+    background-size: cover;
+}
+
+.ornament.cristina {
+    background-image: url(/images/cristina.jpg);
+    background-size: cover;
+}
+
+.ornament.arina {
+    background-image: url(/images/arina.jpg);
+    background-size: cover;
+}
+
+.ornament.ariadna {
+    background-image: url(/images/ariadna.jpg);
+    background-size: cover;
+}
+
+.ornament.ana {
+    background-image: url(/images/ana.jpg);
+    background-size: cover;
+}
+
+.ornament.ion {
+    background-image: url(/images/ion.jpg);
+    background-size: cover;
+}
+
+.ornament.alex {
+    background-image: url(/images/alex.jpg);
+    background-size: cover;
+}
+
+.ornament.roma {
+    background-image: url(/images/roma.jpg);
+    background-size: cover;
+}
+
+.ornament.rusu {
+    background-image: url(/images/rusu.jpg);
+    background-size: cover;
+}
+
+.ornament.bogdan {
+    background-image: url(/images/bogdan.jpg);
+    background-size: cover;
+}
+
+.ornament.maxim {
+    background-image: url(/images/maxim.jpg);
+    background-size: cover;
+}
+
+.ornament.liciu {
+    background-image: url(/images/liciu.jpg);
+    background-size: cover;
+}
+
+/* diploma */
+.diploma {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imagine-diploma {
+    width: 60%;
+    max-width: 600px;
+    border: 2px solid #e3d1b1;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.buton-descarcare {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0f4b0f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.buton-descarcare:hover {
+    background-color: #0d7a0d;
+}
+
+.feedback {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #b20000a6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+
+.feedback textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.feedback button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.feedback button:hover {
+    background-color: #45a049;
+}
+
+.timer {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* formular de trimitere a feedbak */
+#contact.contactare {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.contact-conteiner {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Formularul */
+.contact-left {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+/* Inputurile și textarea */
+.contact-left input[type="text"],
+.contact-left textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d32f2f;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contact-left input[type="text"]:focus,
+.contact-left textarea:focus {
+    border-color: #388e3c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Butonul */
+.contact-left .button {
+    background-color: #d32f2f;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contact-left .button:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+/* Zona de poză */
+.celula-poza {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-bottom-right-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
