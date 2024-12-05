@@ -1,5 +1,5 @@
 body.fundal {
-    background-image: url('../images/fundal.png');
+    background-image: url('images/fundal.png');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -135,72 +135,72 @@ h1 {
 }
 
 .ornament.rux {
-    background-image: url(/images/rux.jpg);
+    background-image: url(images/rux.jpg);
     background-size: cover;
 }
 
 .ornament.adriana {
-    background-image: url(/images/adriana.jpg);
+    background-image: url(images/adriana.jpg);
     background-size: cover;
 }
 
 .ornament.lucia {
-    background-image: url(/images/lucia.jpg);
+    background-image: url(images/lucia.jpg);
     background-size: cover;
 }
 
 .ornament.cristina {
-    background-image: url(/images/cristina.jpg);
+    background-image: url(images/cristina.jpg);
     background-size: cover;
 }
 
 .ornament.arina {
-    background-image: url(/images/arina.jpg);
+    background-image: url(images/arina.jpg);
     background-size: cover;
 }
 
 .ornament.ariadna {
-    background-image: url(/images/ariadna.jpg);
+    background-image: url(images/ariadna.jpg);
     background-size: cover;
 }
 
 .ornament.ana {
-    background-image: url(/images/ana.jpg);
+    background-image: url(images/ana.jpg);
     background-size: cover;
 }
 
 .ornament.ion {
-    background-image: url(/images/ion.jpg);
+    background-image: url(images/ion.jpg);
     background-size: cover;
 }
 
 .ornament.alex {
-    background-image: url(/images/alex.jpg);
+    background-image: url(images/alex.jpg);
     background-size: cover;
 }
 
 .ornament.roma {
-    background-image: url(/images/roma.jpg);
+    background-image: url(images/roma.jpg);
     background-size: cover;
 }
 
 .ornament.rusu {
-    background-image: url(/images/rusu.jpg);
+    background-image: url(images/rusu.jpg);
     background-size: cover;
 }
 
 .ornament.bogdan {
-    background-image: url(/images/bogdan.jpg);
+    background-image: url(images/bogdan.jpg);
     background-size: cover;
 }
 
 .ornament.maxim {
-    background-image: url(/images/maxim.jpg);
+    background-image: url(images/maxim.jpg);
     background-size: cover;
 }
 
 .ornament.liciu {
-    background-image: url(/images/liciu.jpg);
+    background-image: url(images/liciu.jpg);
     background-size: cover;
 }
 
